@@ -74,13 +74,13 @@
 
 // Q2
 
-let gameNum = 69;
+// let gameNum = 69;
 
-let userNum = prompt("Guess the number: ");
+// let userNum = prompt("Guess the number: ");
 
-while(userNum != gameNum)
-{
-    userNum = prompt("You entered the number wrong number.Guess again: ");
-}
+// while(userNum != gameNum)
+// {
+//     userNum = prompt("You entered the number wrong number.Guess again: ");
+// }
 
-alert("You entered the right number")
+// alert("You entered the right number")
