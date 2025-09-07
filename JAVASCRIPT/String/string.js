@@ -34,10 +34,16 @@
 
 // console.log(str.toUpperCase());
 // console.log(str.toLocaleLowerCase());
-// console.log(str2.trim());// removes whitespaces
-// console.log(str.slice(1, 4));// returns part of string
-// console.log(str.concat(str2));//joins str2 wiht str
+// console.log(str2.trim());    // removes whitespaces
+// console.log(str.slice(1, 4));    // returns part of string
+// console.log(str.concat(str2));    //joins str2 wiht str
 // console.log(str.replace("l", "E"));
 
+// ***************************************************
+// Practice Questions
+// ******************************************************
+let fullName = prompt("Enter your username in lowercase :")
 
+let userName = "@" + fullName + fullName.length;
 
+console.log(userName);
